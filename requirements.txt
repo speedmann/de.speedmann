@@ -1,0 +1,6 @@
+pelican
+ansible==2.2.3.0
+Fabric
+Markdown
+typogrify
+GitPython

@@ -32,3 +32,10 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+TYPOGRIFY = True
+TWITTER_USERNAME = "speedmannde"
+PLUGIN_PATHS = ['pelican-plugins']
+#PLUGINS = ['filetime_from_git', 'gravatar']
+PLUGINS = ['gravatar']
+AUTHOR_EMAIL = "speedmann@speedmann.de"
