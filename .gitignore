@@ -105,3 +105,6 @@ output/
 
 # MacOS DSStore file
 .DS_Store
+
+# Serverpid file
+srv.pid
