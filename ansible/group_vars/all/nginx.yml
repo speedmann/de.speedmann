@@ -1,0 +1,8 @@
+---
+letsencrypt_default_ca: 'https://acme-v01.api.letsencrypt.org'
+nginx_ssl_generate_self_signed_certs: False
+nginx_sites:
+  default:
+    domains: ['speedmann.de', 'www.speedmann.de']
+    default_server: True
+    root: /var/www/speedmann.de

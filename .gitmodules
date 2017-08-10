@@ -7,3 +7,9 @@
 [submodule "ansible/roles/ansible-os-hardening"]
 	path = ansible/roles/ansible-os-hardening
 	url = git@github.com:dev-sec/ansible-os-hardening.git
+[submodule "ansible/roles/ansible-nginx"]
+	path = ansible/roles/ansible-nginx
+	url = git@github.com:nickjj/ansible-nginx.git
+[submodule "ansible/roles/ansible-letsencrypt"]
+	path = ansible/roles/ansible-letsencrypt
+	url = git@github.com:nickjj/ansible-letsencrypt.git
