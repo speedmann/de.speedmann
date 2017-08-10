@@ -6,12 +6,11 @@
     - role: ansible-letsencrypt
       letsencrypt_domains: "{{ nginx_sites.default.domains }}"
   tasks:
-  - name: debug item
-    debug:
-      var:{{ item }}
-    with_dict: "{{ nginx_sites }}"
   - name: Create webroot directories
     file: 
       path: "{{ item.value.root }}"
       state: directory
+      owner: www-data
+      group: speedmann
+      mode: 0774
     with_dict: "{{ nginx_sites }}"

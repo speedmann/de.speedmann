@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# pelican output dir
+output/
+
+# MacOS DSStore file
+.DS_Store
