@@ -13,3 +13,6 @@
 [submodule "ansible/roles/ansible-letsencrypt"]
 	path = ansible/roles/ansible-letsencrypt
 	url = git@github.com:nickjj/ansible-letsencrypt.git
+[submodule "web/themes/pelican-themes"]
+	path = web/pelican-themes
+	url = https://github.com/getpelican/pelican-themes.git

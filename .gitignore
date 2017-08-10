@@ -107,4 +107,5 @@ output/
 .DS_Store
 
 # Serverpid file
-srv.pid
+*.pid
+pelican-plugins/
