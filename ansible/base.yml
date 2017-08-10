@@ -1,0 +1,12 @@
+---
+- hosts: all
+  roles:
+    - role: ansible-users
+  tasks:
+    - name: Set /etc/sudoers to allow passwordless sudo for sudo group
+      lineinfile:
+        dest: /etc/sudoers
+        state: present
+        line: '%sudo ALL = NOPASSWD: ALL'
+        regexp: '^%sudo'
+        validate: 'visudo -cf %s'

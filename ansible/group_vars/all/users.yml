@@ -1,0 +1,9 @@
+---
+users:
+  - username: speedmann
+    name: speedmann
+    groups: ['sudo']
+    uid: 1000
+    ssh_key:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCtmJGitZLtdMxq2NXBBGyEcFllkzmLBtnGKvYpPg2NZ8np4KrrDJn5KSTsjVo5SZqllP5IQveMrz/a7HSiRx9iG00okVkxkcO+Z2h8eTF9TqRD36ACF2g7Y7eKCjsqPhH8pMw6gdg6BcPjhh30U+zMh8no467IqLVmnRnC2LSrhqrnYlOHfhLT3t4QWMdflXKHDNv+zpR+6gB/OToLWJZB/stn+N0W//HD9gBT8yiLws0AxjiwYMgCF3bKs2CyAt2VzdicnN3iFNcdooQy1BsK01Q/2N9UglqWH/F3vAhMPaTSyL0MTuQIqi18be12U1SjTCWs9XVT2kjmIyQ6dfh5 key1"
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCtmJGitZLtdMxq2NXBBGyEcFllkzmLBtnGKvYpPg2NZ8np4KrrDJn5KSTsjVo5SZqllP5IQveMrz/a7HSiRx9iG00okVkxkcO+Z2h8eTF9TqRD36ACF2g7Y7eKCjsqPhH8pMw6gdg6BcPjhh30U+zMh8no467IqLVmnRnC2LSrhqrnYlOHfhLT3t4QWMdflXKHDNv+zpR+6gB/OToLWJZB/stn+N0W//HD9gBT8yiLws0AxjiwYMgCF3bKs2CyAt2VzdicnN3iFNcdooQy1BsK01Q/2N9UglqWH/F3vAhMPaTSyL0MTuQIqi18be12U1SjTCWs9XVT2kjmIyQ6dfh5 key2"

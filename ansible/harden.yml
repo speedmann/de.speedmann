@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  roles:
+    - role: ansible-ssh-hardening
+    - role: ansible-os-hardening
+  vars:
+    sftp_enabled: True
+    ssh_use_pam: True
+    ufw_manage_defaults: False

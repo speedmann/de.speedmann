@@ -1,0 +1,9 @@
+[submodule "ansible/roles/ansible-users"]
+	path = ansible/roles/ansible-users
+	url = git@github.com:singleplatform-eng/ansible-users.git
+[submodule "ansible/roles/ansible-ssh-hardening"]
+	path = ansible/roles/ansible-ssh-hardening
+	url = git@github.com:dev-sec/ansible-ssh-hardening.git
+[submodule "ansible/roles/ansible-os-hardening"]
+	path = ansible/roles/ansible-os-hardening
+	url = git@github.com:dev-sec/ansible-os-hardening.git
