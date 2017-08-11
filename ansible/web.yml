@@ -2,9 +2,9 @@
 - hosts: all
   become: yes
   roles:
-    - role: ansible-nginx
     - role: ansible-letsencrypt
       letsencrypt_domains: "{{ nginx_sites.default.domains }}"
+    - role: ansible-nginx
   tasks:
   - name: Create webroot directories
     file: 
