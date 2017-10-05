@@ -26,7 +26,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/speedmannde'),
-          )
+          ('Github','https://github.com/speedmann'),)
 
 DEFAULT_PAGINATION = 10
 
