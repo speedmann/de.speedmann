@@ -12,8 +12,8 @@ env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
-production = 'speedmann@speedmann.de:22'
-dest_path = '/var/www/speedmann.de'
+production = 'speedma@serpens.uberspace.de:22'
+dest_path = '/home/speedma/html'
 
 # Rackspace Cloud Files configuration settings
 env.cloudfiles_username = 'my_rackspace_username'
